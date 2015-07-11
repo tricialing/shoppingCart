@@ -1,0 +1,13 @@
+.container {
+	background-color: lightGrey;
+}
+
+.row {
+	border: 0px solid blue;
+	padding: 2em;
+}
+
+
+h1 {
+	color: white;
+}
