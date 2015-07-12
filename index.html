@@ -16,9 +16,8 @@
   </head>
   <body>
     <div class="container">
-      <h1>shopping list</h1>
+    <h1>shopping list</h1>
       <section id="shoppingList">
-        
         <div class="item row col-xs-12">
           <p class="item-name col-sm-3">Salmon</p>
           <p class="item-price col-sm-3">$30</p>
@@ -57,15 +56,31 @@
           </form>
           <p class="col-sm-2 item-sub-total">$ - </p>
         </div>
+
+        <!-- adding new item -->
+        <div class="new-item row col-xs-12">
+          <form class="col-xs-12 form-inline">
+            <input class="new-item-name form-control" type="text" placeholder="New item">
+              <div class="input-group  col-xs-3">
+                <label class="input-group-addon">$</label>
+                <input class="new-item-price form-control" type="text" placeholder="30">
+              </div>
+              <button class="add-item btn btn-default">add</button>
+            </form>
+          </div>
+
+
   </section>
+
         <div class="total row col-xs-12">
           <h2 class="col-sm-offset-7 col-xs-3">Total Price:</h2>
           <h3 class="col-xs-1" id="total-price"></h3>
         </div>
 
         <div class="row row col-xs-12">
-          <button class="btn btn-info btn-lg pull-right" id="cal-price-button">Calculate Total Price</button>
+          <button class="btn btn-info btn-block pull-right" id="cal-price-button">Calculate Total Price</button>
         </div>
+
 
 
           
